@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Quiz App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="quiz-container">
+    <h1>JavaScript Quiz</h1>
+    <div id="question-container"></div>
+    <ul id="answer-buttons"></ul>
+    <div id="timer">Time: 30s</div>
+    <button id="next-btn">Next</button>
+    <div id="score-container" style="display: none;">
+      <h2>Your Score: <span id="score"></span>/5</h2>
+      <button onclick="location.reload()">Restart</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
